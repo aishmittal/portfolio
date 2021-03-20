@@ -1,10 +1,12 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Layout, Divider } from 'antd';
 import Header from '../components/PageLayout/Header';
 
 import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
 import Skills from '../components/PageFragments/HomePage/SkillProgress';
+import Experience from '../components/PageFragments/HomePage/Experience';
+import Education from '../components/PageFragments/HomePage/Education';
 
 export default () => (
   <Layout className="outerPadding">
@@ -13,6 +15,10 @@ export default () => (
       <SidebarWrapper>
         <>
           <AboutMe />
+          <Divider />
+          <Experience />
+          <Divider />
+          <Education />
           <Skills />
         </>
       </SidebarWrapper>

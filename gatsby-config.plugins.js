@@ -16,8 +16,8 @@ module.exports = [
   {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      name: 'Rolwin Reevan',
-      short_name: 'Rolwin Reevan',
+      name: 'Aishwarya Mittal',
+      short_name: 'Aishwarya Mittal',
       start_url: '/',
       background_color: '#304CFD',
       theme_color: '#304CFD',
@@ -85,21 +85,18 @@ module.exports = [
     },
   },
   {
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      // The property ID; the tracking code won't be generated without it
-      trackingId: config.googleAnalyticTrackingId,
-      // Defines where to place the tracking script - `true` in the head and `false` in the body
-      head: false,
-    },
-  },
-  {
     resolve: 'gatsby-plugin-nprogress',
     options: {
       // Setting a color is optional.
       color: 'black',
       // Disable the loading spinner.
       showSpinner: true,
+    },
+  },
+  {
+    resolve: 'gatsby-plugin-disqus',
+    options: {
+      shortname: 'aishwaryamittal',
     },
   },
 ];

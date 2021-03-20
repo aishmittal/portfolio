@@ -1,5 +1,5 @@
 {
-  "name": "rolwinreevan_gatsby_blog",
+  "name": "portfolio",
   "private": true,
   "description": "the most beautiful gatsby template ever designed using antd",
   "version": "0.1.0",
@@ -14,12 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "antd": "^4.0.1",
     "feather-icons-react": "^0.4.1",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.29.2",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-less": "^3.0.19",
@@ -58,6 +64,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rolwin100/rolwinreevan_gatsby_blog"
+    "url": "https://github.com/aishmittal/portfolio"
   }
 }
