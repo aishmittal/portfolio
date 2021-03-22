@@ -13,7 +13,7 @@ const Education = () => (
         <Timeline.Item color="green">
           <Typography.Title level={5}>
             {edu.title}
-            <span className="subTitle">
+            <span className="yearText">
               {edu.year}
             </span>
           </Typography.Title>

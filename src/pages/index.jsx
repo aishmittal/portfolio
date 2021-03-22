@@ -4,7 +4,7 @@ import Header from '../components/PageLayout/Header';
 
 import SidebarWrapper from '../components/PageLayout/Sidebar';
 import AboutMe from '../components/PageFragments/HomePage/AboutMe';
-import Skills from '../components/PageFragments/HomePage/SkillProgress';
+import Skills from '../components/PageFragments/HomePage/Skills';
 import Experience from '../components/PageFragments/HomePage/Experience';
 import Education from '../components/PageFragments/HomePage/Education';
 
@@ -16,10 +16,11 @@ export default () => (
         <>
           <AboutMe />
           <Divider />
+          <Skills />
+          <Divider />
           <Experience />
           <Divider />
           <Education />
-          <Skills />
         </>
       </SidebarWrapper>
     </Layout>
