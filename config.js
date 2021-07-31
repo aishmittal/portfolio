@@ -1,15 +1,15 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://aishwaryamittal.in',
+  siteUrl: 'https://aishmittal.github.io',
   siteTitle: 'Aishwarya Mittal',
-  siteDescription: '',
+  siteDescription: 'Aishwarya Mittal Protfolio',
   author: 'Aishwarya Mittal',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://aishwaryamittal.disqus.com/embed.js',
   pages: {
     home: '/',
-    // blog: 'blog',
+    blog: 'blog',
     projects: 'projects',
     contact: 'contact',
     // resume: 'resume',
@@ -24,7 +24,7 @@ module.exports = {
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/38e0188d-a4ce-4005-92d4-937a06346be4',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-BHMP3CDF1R',
   tags: {
     javascript: {
       name: 'javascript',
